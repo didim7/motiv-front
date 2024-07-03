@@ -52,14 +52,14 @@ export default function Nav() {
   }, []);
   return (
     <>
-      <li className="navigation__item">
+      {/*<li className="navigation__item">
         <a
           href="#"
           className={`navigation__link ${
             isActiveParentMenu(homePages) ? "menu-active" : ""
           }`}
         >
-          Home
+          Men
         </a>
         <div className="box-menu" style={{ width: "800px" }}>
           <div className="col pe-4">
@@ -130,9 +130,9 @@ export default function Nav() {
             </ul>
           </div>
         </div>
-        {/* <!-- /.box-menu --> */}
-      </li>
-      <li className="navigation__item">
+      </li>*/}
+
+  <li className="navigation__item">
         <a
           href="#"
           className={`navigation__link
@@ -141,13 +141,13 @@ export default function Nav() {
            ${isActiveParentMenu(additionalShopPageitems) ? "menu-active" : ""}
           `}
         >
-          Shop
+          Men
         </a>
         <div className="mega-menu">
           <div className="container d-flex">
             <div className="col pe-4">
               <a href="#" className="sub-menu__title">
-                Shop List
+                Categorie 1
               </a>
               <ul className="sub-menu__list list-unstyled">
                 {shopList.map((elm, i) => (
@@ -167,7 +167,7 @@ export default function Nav() {
 
             <div className="col pe-4">
               <a href="#" className="sub-menu__title">
-                Shop Detail
+                Categorie 2
               </a>
               <ul className="sub-menu__list list-unstyled">
                 {shopDetails.map((elm, i) => (
@@ -187,7 +187,7 @@ export default function Nav() {
 
             <div className="col pe-4">
               <a href="#" className="sub-menu__title">
-                Other Pages
+                Categorie 3
               </a>
               <ul className="sub-menu__list list-unstyled">
                 {additionalShopPageitems.map((elm, i) => (
@@ -232,14 +232,217 @@ export default function Nav() {
           {/* <!-- /.container d-flex --> */}
         </div>
       </li>
+
       <li className="navigation__item">
+        <a
+          href="#"
+          className={`navigation__link
+           ${isActiveParentMenu(shopList) ? "menu-active" : ""}
+           ${isActiveParentMenu(shopDetails) ? "menu-active" : ""}
+           ${isActiveParentMenu(additionalShopPageitems) ? "menu-active" : ""}
+          `}
+        >
+          Women
+        </a>
+        <div className="mega-menu">
+          <div className="container d-flex">
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 1
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {shopList.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 2
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {shopDetails.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 3
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {additionalShopPageitems.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="mega-menu__media col">
+              <div className="position-relative">
+                <img
+                  loading="lazy"
+                  className="mega-menu__img"
+                  src="/assets/images/mega-menu-item.jpg"
+                  width={902}
+                  height={990}
+                  style={{ height: "fit-content" }}
+                  alt="New Horizons"
+                />
+                <div className="mega-menu__media-content content_abs content_left content_bottom">
+                  <h3>NEW</h3>
+                  <h3 className="mb-0">HORIZONS</h3>
+                  <Link
+                    to="/shop-1"
+                    className="btn-link default-underline fw-medium"
+                  >
+                    SHOP NOW
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- /.container d-flex --> */}
+        </div>
+      </li>
+
+      {/*---------------------------- Kids-----------------------------*/ }
+      <li className="navigation__item">
+        <a
+          href="#"
+          className={`navigation__link
+           ${isActiveParentMenu(shopList) ? "menu-active" : ""}
+           ${isActiveParentMenu(shopDetails) ? "menu-active" : ""}
+           ${isActiveParentMenu(additionalShopPageitems) ? "menu-active" : ""}
+          `}
+        >
+          Kids
+        </a>
+        <div className="mega-menu">
+          <div className="container d-flex">
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 1
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {shopList.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 2
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {shopDetails.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col pe-4">
+              <a href="#" className="sub-menu__title">
+                Categorie 3
+              </a>
+              <ul className="sub-menu__list list-unstyled">
+                {additionalShopPageitems.map((elm, i) => (
+                  <li key={i} className="sub-menu__item">
+                    <Link
+                      to={elm.href}
+                      className={`menu-link menu-link_us-s ${
+                        isMenuActive(elm.href) ? "menu-active" : ""
+                      }`}
+                    >
+                      {elm.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="mega-menu__media col">
+              <div className="position-relative">
+                <img
+                  loading="lazy"
+                  className="mega-menu__img"
+                  src="/assets/images/mega-menu-item.jpg"
+                  width={902}
+                  height={990}
+                  style={{ height: "fit-content" }}
+                  alt="New Horizons"
+                />
+                <div className="mega-menu__media-content content_abs content_left content_bottom">
+                  <h3>NEW</h3>
+                  <h3 className="mb-0">HORIZONS</h3>
+                  <Link
+                    to="/shop-1"
+                    className="btn-link default-underline fw-medium"
+                  >
+                    SHOP NOW
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <!-- /.container d-flex --> */}
+        </div>
+      </li>
+     { /*<li className="navigation__item">
         <a
           href="#"
           className={`navigation__link ${
             isActiveParentMenu(blogmenuItems) ? "menu-active" : ""
           }`}
         >
-          Blog
+          Kids 
         </a>
         <ul className="default-menu list-unstyled">
           {blogmenuItems.map((elm, i) => (
@@ -255,18 +458,27 @@ export default function Nav() {
             </li>
           ))}
         </ul>
-        {/* <!-- /.box-menu --> */}
-      </li>
+  
+      </li>*/}
       <li className="navigation__item">
-        <a
-          href="#"
+       { /*<a
+          href="/lookbook"
           className={`navigation__link ${
             isActiveParentMenu(othersMenuItems) ? "menu-active" : ""
           }`}
         >
-          Pages
-        </a>
-        <ul className="default-menu list-unstyled">
+          Accesories
+        </a>*/}
+        <Link
+        to='/lookbook'
+          style={{color:'black'}}
+          className={`navigation__link ${
+            isActiveParentMenu(othersMenuItems) ? "menu-active" : ""
+          }`}
+        >
+          Accesories
+        </Link>
+        {/*<ul className="default-menu list-unstyled">
           {othersMenuItems.map((elm, i) => (
             <li key={i} className="sub-menu__item">
               <Link
@@ -279,7 +491,7 @@ export default function Nav() {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul>*/}
         {/* <!-- /.box-menu --> */}
       </li>
       <li className="navigation__item">
