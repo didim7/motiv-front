@@ -25,7 +25,7 @@ export default function Lookbook() {
                   <p className="text-uppercase mb-1 white-color">
                     STARTING AT $19
                   </p>
-                  <h3 className="white-color">Women’s T-Shirts</h3>
+                  <h3 className="white-color">Golfing</h3>
                 </div>
               </a>
               <a
@@ -41,9 +41,9 @@ export default function Lookbook() {
                     alt="image"
                   />
                 </div>
-                <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                  <p className="text-uppercase mb-1">STARTING AT $21</p>
-                  <h3>Slim Fit Cotton Shorts</h3>
+                <div  className="content_abs content_bottom content_left content_bottom-md content_left-md">
+                  <p style={{color:"white"}} className="text-uppercase mb-1">STARTING AT $21</p>
+                  <h3 style={{color:"white"}}>Boxing</h3>
                 </div>
               </a>
             </div>
@@ -62,8 +62,8 @@ export default function Lookbook() {
                   />
                 </div>
                 <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                  <p className="text-uppercase mb-1">STARTİNG AT $39</p>
-                  <h3>Men’s Sportswear</h3>
+                  <p style={{color:"white"}} className="text-uppercase mb-1">STARTİNG AT $39</p>
+                  <h3 style={{color:"white"}}>Tennis </h3>
                 </div>
               </a>
             </div>
@@ -83,8 +83,8 @@ export default function Lookbook() {
                   />
                 </div>
                 <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                  <p className="text-uppercase mb-1">STARTİNG AT $39</p>
-                  <h3>Knee-length Cotton Shorts</h3>
+                  <p style={{color:"white"}} className="text-uppercase mb-1">STARTİNG AT $39</p>
+                  <h3 style={{color:"white"}}>Miscellaneous Accesories</h3>
                 </div>
               </a>
             </div>
@@ -103,9 +103,9 @@ export default function Lookbook() {
                     alt="image"
                   />
                 </div>
-                <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                  <p className="text-uppercase mb-1">STARTING AT $19</p>
-                  <h3>Canvas Trainers</h3>
+                <div  className="content_abs content_bottom content_left content_bottom-md content_left-md">
+                  <p  style={{color:"white"}}className="text-uppercase mb-1">STARTING AT $19</p>
+                  <h3 style={{color:"white"}}>Bodybuilding</h3>
                 </div>
               </a>
               <a
@@ -122,8 +122,8 @@ export default function Lookbook() {
                   />
                 </div>
                 <div className="content_abs content_bottom content_left content_bottom-md content_left-md">
-                  <p className="text-uppercase mb-1">STARTING AT $21</p>
-                  <h3>Slim Fit Cotton Shorts</h3>
+                  <p style={{color:"white"}} className="text-uppercase mb-1">STARTING AT $21</p>
+                  <h3 style={{color:"white"}}>Base Ball</h3>
                 </div>
               </a>
             </div>
