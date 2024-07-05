@@ -415,7 +415,7 @@ export default function Nav() {
                   className="mega-menu__img"
                   src="/assets/images/mega-menu-item.jpg"
                   width={902}
-                  height={990}
+                  height={500}
                   style={{ height: "fit-content" }}
                   alt="New Horizons"
                 />
