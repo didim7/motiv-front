@@ -52,7 +52,7 @@ export default function Header1() {
           <div className="logo">
             <Link to="/">
               <img
-                src="/assets/images/black.png"
+                src="/assets/images/Black.png"
                 width={112}
                 height={28}
                 alt="Uomo"
