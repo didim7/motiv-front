@@ -27,49 +27,49 @@ export const shopList = [
   {
     id: 1,
     href: "/shop-1",
-    title: "Shop List V1",
+    title: "Sub categorie 1",
   },
   {
     id: 2,
     href: "/shop-2",
-    title: "Shop List V2",
+    title: "Sub categorie 2",
   },
   {
     id: 3,
     href: "/shop-3",
-    title: "Shop List V3",
+    title: "Sub categorie 3",
   },
   {
     id: 4,
     href: "/shop-4",
-    title: "Shop List V4",
+    title: "Sub categorie 4",
   },
   {
     id: 5,
     href: "/shop-5",
-    title: "Shop List V5",
+    title: "Sub categorie 5",
   },
   {
     id: 6,
     href: "/shop-6",
-    title: "Shop List V6",
+    title: "Sub categorie 6",
   },
   {
     id: 7,
     href: "/shop-7",
-    title: "Shop List V7",
+    title: "Sub categorie 7",
   },
   {
     id: 8,
     href: "/shop-8",
-    title: "Shop List V8",
+    title: "Sub categorie 8",
   },
   {
     id: 9,
     href: "/shop-9",
-    title: "Shop List V9",
+    title: "Sub categorie 9",
   },
-  {
+  /*{
     id: 10,
     href: "/shop-10",
     title: "Shop Item Style",
@@ -78,24 +78,24 @@ export const shopList = [
     id: 11,
     href: "/shop-11",
     title: "Horizontal Scroll",
-  },
+  },*/
 ];
 export const shopDetails = [
-  { id: 1, href: "/product2_variable/1", title: "Shop Detail V1" },
-  { id: 2, href: "/product7_v2/1", title: "Shop Detail V2" },
-  { id: 3, href: "/product8_v3/1", title: "Shop Detail V3" },
-  { id: 4, href: "/product9_v4/1", title: "Shop Detail V4" },
-  { id: 5, href: "/product10_v5/1", title: "Shop Detail V5" },
-  { id: 6, href: "/product11_v6/1", title: "Shop Detail V6" },
-  { id: 7, href: "/product12_v7/1", title: "Shop Detail V7" },
-  { id: 8, href: "/product13_v8/1", title: "Shop Detail V8" },
-  { id: 9, href: "/product14_v9/1", title: "Shop Detail V9" },
-  { id: 10, href: "/product15_v10/1", title: "Shop Detail V10" },
-  { id: 11, href: "/product16_v11/1", title: "Shop Detail V11" },
+  { id: 1, href: "/product2_variable/1", title: "sub categorie 1" },
+  { id: 2, href: "/product7_v2/1", title: "sub categorie 2" },
+  { id: 3, href: "/product8_v3/1", title: "sub categorie 3" },
+  { id: 4, href: "/product9_v4/1", title: "sub categorie 4" },
+  { id: 5, href: "/product10_v5/1", title: "sub categorie 5" },
+  { id: 6, href: "/product11_v6/1", title: "sub categorie 6" },
+  { id: 7, href: "/product12_v7/1", title: "sub categorie 7" },
+  { id: 8, href: "/product13_v8/1", title: "sub categorie 8" },
+  { id: 9, href: "/product14_v9/1", title: "sub categorie 9" },
+  /*{ id: 10, href: "/product15_v10/1", title: "sub categorie 10" },
+  { id: 11, href: "/product16_v11/1", title: "sub categorie 11" },*/
 ];
 
 export const additionalShopPageitems = [
-  { id: 1, href: "/shop-12", title: "Collection Grid" },
+  /*{ id: 1, href: "/shop-12", title: "Collection Grid" },
   { id: 2, href: "/product1_simple/1", title: "Simple Product" },
   { id: 3, href: "/product2_variable/2", title: "Variable Product" },
   { id: 4, href: "/product3_external/2", title: "External Product" },
@@ -105,7 +105,16 @@ export const additionalShopPageitems = [
   { id: 8, href: "/shop_cart", title: "Shopping Cart" },
   { id: 9, href: "/shop_checkout", title: "Checkout" },
   { id: 10, href: "/shop_order_complete", title: "Order Complete" },
-  { id: 11, href: "/shop_order_tracking", title: "Order Tracking" },
+  { id: 11, href: "/shop_order_tracking", title: "Order Tracking" },*/
+  { id: 1, href: "/product2_variable/1", title: "sub categorie 1" },
+  { id: 2, href: "/product7_v2/1", title: "sub categorie 2" },
+  { id: 3, href: "/product8_v3/1", title: "sub categorie 3" },
+  { id: 4, href: "/product9_v4/1", title: "sub categorie 4" },
+  { id: 5, href: "/product10_v5/1", title: "sub categorie 5" },
+  { id: 6, href: "/product11_v6/1", title: "sub categorie 6" },
+  { id: 7, href: "/product12_v7/1", title: "sub categorie 7" },
+  { id: 8, href: "/product13_v8/1", title: "sub categorie 8" },
+  { id: 9, href: "/product14_v9/1", title: "sub categorie 9" },
 ];
 
 export const blogmenuItems = [
@@ -139,7 +148,7 @@ export const othersMenuItems = [
   {
     id: 1,
     href: "/account_dashboard",
-    title: "My Account",
+    title: "Rings",
   },
   {
     id: 2,

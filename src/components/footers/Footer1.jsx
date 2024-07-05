@@ -28,14 +28,14 @@ export default function Footer1() {
             </div>
             {/* <!-- /.logo --> */}
             <p className="footer-address">
-              1418 River Drive, Suite 35 Cottonhall, CA 9622 United States
+            No. C 32, Blohum Street Gana
             </p>
 
             <p className="m-0">
-              <strong className="fw-medium">sale@uomo.com</strong>
+              <strong className="fw-medium">sale@motive.com</strong>
             </p>
             <p>
-              <strong className="fw-medium">+1 246-345-0695</strong>
+              <strong className="fw-medium">+233 0302230857</strong>
             </p>
 
             <ul className="social-links list-unstyled d-flex flex-wrap mb-0">
@@ -147,7 +147,7 @@ export default function Footer1() {
       <div className="footer-bottom container">
         <div className="d-block d-md-flex align-items-center">
           <span className="footer-copyright me-auto">
-            ©{new Date().getFullYear()} Uomo
+            ©{new Date().getFullYear()} Motive
           </span>
           <div className="footer-settings d-block d-md-flex align-items-center">
             <div className="d-flex align-items-center">
