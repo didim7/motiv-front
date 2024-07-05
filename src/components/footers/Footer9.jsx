@@ -20,7 +20,7 @@ export default function Footer9() {
                 <img
                   width={112}
                   height={28}
-                  src="/assets/images/logo-black.png"
+                  src="/assets/images/Black.png"
                   alt="Uomo"
                   className="logo__image d-block"
                 />

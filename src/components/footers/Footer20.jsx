@@ -161,7 +161,7 @@ export default function Footer20() {
 
       <div className="footer-bottom">
         <div className="container d-md-flex align-items-center">
-          <span className="footer-copyright me-auto">©2024 Uomo</span>
+          <span className="footer-copyright me-auto">©2024 </span>
           <div className="footer-settings d-md-flex align-items-center">
             <select
               id="footerSettingsLanguage"

@@ -199,7 +199,7 @@ export default function Footer19() {
 
       <div className="footer-bottom font-heading body-color">
         <div className="container d-md-flex align-items-center">
-          <span className="footer-copyright me-auto">©2024 Uomo</span>
+          <span className="footer-copyright me-auto">©2024 </span>
           <div className="footer-settings d-md-flex align-items-center">
             <select
               id="footerSettingsLanguage"

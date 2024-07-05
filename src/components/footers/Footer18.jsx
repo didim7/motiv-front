@@ -230,7 +230,7 @@ export default function Footer18() {
 
       <div className="footer-bottom container">
         <div className="d-block d-md-flex align-items-center">
-          <span className="footer-copyright me-auto fs-13">©2024 Uomo</span>
+          <span className="footer-copyright me-auto fs-13">©2024 </span>
           <div className="footer-settings d-block d-md-flex align-items-center">
             <div className="d-flex align-items-center">
               <label
