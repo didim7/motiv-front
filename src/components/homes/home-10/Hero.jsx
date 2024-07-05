@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Hero() {
   const swiperOptions = {
     autoplay: {
-      delay: 10000000,
+      delay: 10000,
     },
     modules: [Autoplay, Navigation, Pagination, EffectFade],
     navigation: {
@@ -29,7 +29,7 @@ export default function Hero() {
       className="swiper-container js-swiper-slider slideshow slideshow-navigation-white-sm swiper-container-fade swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events"
     >
 
-      hhhhh
+      
       {slidesData5.map((elm, i) => (
         <SwiperSlide key={i} className="swiper-slide">
           <div className="overflow-hidden position-relative h-100">

@@ -95,7 +95,7 @@ export default function SingleProduct1({ product }) {
           </div>
           <div className="product-single__short-desc">
             <p>
-              Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
+              -----------Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
               elementum gravida nec dui. Aenean aliquam varius ipsum, non
               ultricies tellus sodales eu. Donec dignissim viverra nunc, ut
               aliquet magna posuere eget.

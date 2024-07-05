@@ -11,6 +11,7 @@ import { Gallery, Item } from "react-photoswipe-gallery";
 
 import tippy from "tippy.js";
 export default function ProductSlider1(product) {
+  console.log(product.id);
   const images = [
     {
       imgSrc: product.product.imgSrc,

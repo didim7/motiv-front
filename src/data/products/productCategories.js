@@ -9,7 +9,27 @@ export const menuCategories = [
   "Accessories",
   "Shoes",
 ];
+export const menuCategoriespadel = [
+  "All",
+  "Tennis",
+  "Padel",
+  "Men",
+  "Women",
+  "Accessories",
+  "Shoes",
+  "Kids",
+];
+// export const menuCategories = [
+//   "All",
+//   "StayHome",
+//   "Jackets",
+//   "Hoodies",
+//   "Padel",
+//   "Women",
 
+//   "Accessories",
+//   "Shoes",
+// ];
 export const sortingOptions = [
   { label: "Default Sorting", value: "", selected: true },
   { label: "Featured", value: "1" },

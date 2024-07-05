@@ -460,6 +460,41 @@ export default function Nav() {
         </ul>
   
       </li>*/}
+
+<li className="navigation__item">
+       { /*<a
+          href="/lookbook"
+          className={`navigation__link ${
+            isActiveParentMenu(othersMenuItems) ? "menu-active" : ""
+          }`}
+        >
+          Accesories
+        </a>*/}
+        <Link
+        to='/shop-120'
+          style={{color:'black'}}
+          className={`navigation__link ${
+            isActiveParentMenu(othersMenuItems) ? "menu-active" : ""
+          }`}
+        >
+          Padel
+        </Link>
+        {/*<ul className="default-menu list-unstyled">
+          {othersMenuItems.map((elm, i) => (
+            <li key={i} className="sub-menu__item">
+              <Link
+                to={elm.href}
+                className={`menu-link menu-link_us-s ${
+                  isMenuActive(elm.href) ? "menu-active" : ""
+                }`}
+              >
+                {elm.title}
+              </Link>
+            </li>
+          ))}
+        </ul>*/}
+        {/* <!-- /.box-menu --> */}
+      </li>
       <li className="navigation__item">
        { /*<a
           href="/lookbook"

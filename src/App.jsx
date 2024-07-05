@@ -61,6 +61,7 @@ import ShopPage9 from "./pages/shoplist/shop-9";
 import ShopPage10 from "./pages/shoplist/shop-10";
 import ShopPage11 from "./pages/shoplist/shop-11";
 import ShopPage12 from "./pages/shoplist/shop-12";
+import ShopPage120 from "./pages/shoplist/shop-120";
 import ProductDetailsPage2 from "./pages/shopSingle/product2_variable/[id]";
 import ProductDetailsPage7 from "./pages/shopSingle/product7_v2/[id]";
 import ProductDetailsPage8 from "./pages/shopSingle/product8_v3/[id]";
@@ -155,6 +156,7 @@ function App() {
             <Route path="shop-10" element={<ShopPage10 />} />
             <Route path="shop-11" element={<ShopPage11 />} />
             <Route path="shop-12" element={<ShopPage12 />} />
+            <Route path="shop-120" element={<ShopPage120 />} />
 
             <Route
               path="product2_variable/:id"
