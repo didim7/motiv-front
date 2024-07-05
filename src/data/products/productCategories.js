@@ -3,7 +3,7 @@ export const menuCategories = [
   "StayHome",
   "Jackets",
   "Hoodies",
-  "Men",
+  "Padel",
   "Women",
 
   "Accessories",

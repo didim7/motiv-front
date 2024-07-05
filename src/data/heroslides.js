@@ -317,37 +317,10 @@ export const slidesData4 = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio pulvinar in ipsum amet.",
   },
 ];
-// export const slidesData5 = [
-//   {
-//     id: 1,
-//     imgSrc: "/assets/images/home/demo10/slideshow-character1.png",
-//     imgAlt: "Woman Fashion 1",
-//     title: "Modern Jogger",
-//     price: "399,50 TL",
-//     type: "New Arrivals",
-//   },
-//   {
-//     id: 2,
-//     imgSrc: "/assets/images/home/demo10/slideshow-character1.png",
-//     imgAlt: "Woman Fashion 1",
-//     title: "Modern Jogger",
-//     price: "399,50 TL",
-//     type: "New Arrivals",
-//   },
-//   {
-//     id: 3,
-//     imgSrc: "/assets/images/home/demo10/slideshow-character1.png",
-//     imgAlt: "Woman Fashion 1",
-//     title: "Modern Jogger",
-//     price: "399,50 TL",
-//     type: "New Arrivals",
-//   },
-// ];
-
 export const slidesData5 = [
   {
     id: 1,
-    imgSrc: "/assets/images/imagesimported/3.jpg",
+    imgSrc: "/assets/images/home/demo10/slideshow-character1.png",
     imgAlt: "Woman Fashion 1",
     title: "Modern Jogger",
     price: "399,50 TL",
@@ -355,7 +328,7 @@ export const slidesData5 = [
   },
   {
     id: 2,
-    imgSrc: "/assets/images/imagesimported/4.jpg",
+    imgSrc: "/assets/images/home/demo10/slideshow-character2.png",
     imgAlt: "Woman Fashion 1",
     title: "Modern Jogger",
     price: "399,50 TL",
@@ -363,13 +336,40 @@ export const slidesData5 = [
   },
   {
     id: 3,
-    imgSrc: "/assets/images/imagesimported/5.jpg",
+    imgSrc: "/assets/images/home/demo10/slideshow-character1.png",
     imgAlt: "Woman Fashion 1",
     title: "Modern Jogger",
     price: "399,50 TL",
     type: "New Arrivals",
   },
 ];
+
+// export const slidesData5 = [
+//   {
+//     id: 1,
+//     imgSrc: "/assets/images/imagesimported/3.jpg",
+//     imgAlt: "Woman Fashion 1",
+//     title: "Modern Jogger",
+//     price: "399,50 TL",
+//     type: "New Arrivals",
+//   },
+//   {
+//     id: 2,
+//     imgSrc: "/assets/images/imagesimported/4.jpg",
+//     imgAlt: "Woman Fashion 1",
+//     title: "Modern Jogger",
+//     price: "399,50 TL",
+//     type: "New Arrivals",
+//   },
+//   {
+//     id: 3,
+//     imgSrc: "/assets/images/imagesimported/5.jpg",
+//     imgAlt: "Woman Fashion 1",
+//     title: "Modern Jogger",
+//     price: "399,50 TL",
+//     type: "New Arrivals",
+//   },
+// ];
 
 export const slideData6 = [
   {

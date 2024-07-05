@@ -49,6 +49,7 @@ import HomePage20 from "./pages/homes/home-20";
 import HomePage21 from "./pages/homes/home-21";
 import HomePage22 from "./pages/homes/home-22";
 import ShopPage1 from "./pages/shoplist/shop-1";
+import ShopPage1_2 from "./pages/shoplist/shop-1_2";
 import ShopPage2 from "./pages/shoplist/shop-2";
 import ShopPage3 from "./pages/shoplist/shop-3";
 import ShopPage4 from "./pages/shoplist/shop-4";
@@ -117,7 +118,7 @@ function App() {
         <MobileHeader />
         <Routes>
           <Route path="/">
-            <Route index element={<HomePage1 />} />
+            <Route index element={<HomePage10 />} />
             <Route path="home-1" element={<HomePage1 />} />
             <Route path="home-2" element={<HomePage2 />} />
             <Route path="home-3" element={<HomePage3 />} />
@@ -142,6 +143,7 @@ function App() {
             <Route path="home-22" element={<HomePage22 />} />
 
             <Route path="shop-1" element={<ShopPage1 />} />
+            <Route path="shop-1_2" element={<ShopPage1_2 />} />
             <Route path="shop-2" element={<ShopPage2 />} />
             <Route path="shop-3" element={<ShopPage3 />} />
             <Route path="shop-4" element={<ShopPage4 />} />

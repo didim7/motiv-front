@@ -4,18 +4,23 @@ export const bannersData = [
     imgSrc: "/assets/images/home/demo10/grid_banner_1.jpg",
     altText: "Shop Women",
     buttonText: "Shop Women",
+    top:"/shop-1_2"
   },
   {
     id: 2,
     imgSrc: "/assets/images/home/demo10/grid_banner_2.jpg",
     altText: "Shop Men",
     buttonText: "Shop Men",
+    top:"/shop-1"
+
   },
   {
     id: 3,
     imgSrc: "/assets/images/home/demo10/grid_banner_3.jpg",
     altText: "Shop Kids",
     buttonText: "Shop Kids",
+    top:"/shop-1"
+
   },
 ];
 export const bannersData2 = [
